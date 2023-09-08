@@ -13,8 +13,8 @@ def fetch_packages(env_type):
         command = ["pip", "list", "--format=freeze"]
     else:  # "virtual"
         output_file_path = os.path.join(CONFIG['OUTPUT_DIRECTORY'], CONFIG['VIRTUALENV_FILENAME'])
-        pip_path = os.path.join("Sandbox", "Scripts", "pip")
-        command = [pip_path, "list", "--format=freeze"]
+        # pip_path = os.path.join("Compare", "Scripts", "pip")
+        command = ["pip", "list", "--format=freeze"]
 
     # Create the output directory if it doesn't exist
     os.makedirs(CONFIG['OUTPUT_DIRECTORY'], exist_ok=True)
