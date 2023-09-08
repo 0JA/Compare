@@ -7,7 +7,8 @@ CONFIG = {
     'VIRTUALENV_FILENAME': 'virtualenv_packages.txt',
     'GLOBALENV_FILENAME': 'global_packages.txt',
     'VIRTUAL_ENV_LABEL': 'Virtual Environment Exclusive',
-    'GLOBAL_ENV_LABEL': 'Global Environment Exclusive'
+    'GLOBAL_ENV_LABEL': 'Global Environment Exclusive',
+    'Lag': 'Nee'
 }
 
 # Configuration for CSS styling
